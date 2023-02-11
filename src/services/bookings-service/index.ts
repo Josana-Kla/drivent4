@@ -26,8 +26,6 @@ async function getBookings(userId: number) {
   if (!booking) {
     throw notFoundError();
   }
-  
-  console.log(booking);
 
   return booking;
 }

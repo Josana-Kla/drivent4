@@ -11,6 +11,9 @@ export async function getBookings(req: AuthenticatedRequest, res: Response) {
 
     return res.status(httpStatus.OK).send(bookings);
   } catch (error) {
+    if (error.name === "CannotListHotelsError") {
+      return res.sendStatus(httpStatus.PAYMENT_REQUIRED);
+    }
     return res.sendStatus(httpStatus.NOT_FOUND);
   }
 }
@@ -26,6 +29,9 @@ export async function createBooking(req: AuthenticatedRequest, res: Response) {
   } catch (error) {
     if(error.name === "NotFoundError") {
       return res.sendStatus(httpStatus.NOT_FOUND);
+    }
+    if (error.name === "CannotListHotelsError") {
+      return res.sendStatus(httpStatus.PAYMENT_REQUIRED);
     }
     if(error.name === "CannotBookingRoom") {
       return res.sendStatus(httpStatus.FORBIDDEN);
@@ -46,6 +52,9 @@ export async function updateBooking(req: AuthenticatedRequest, res: Response) {
   } catch (error) {
     if(error.name === "NotFoundError") {
       return res.sendStatus(httpStatus.NOT_FOUND);
+    }
+    if (error.name === "CannotListHotelsError") {
+      return res.sendStatus(httpStatus.PAYMENT_REQUIRED);
     }
     if(error.name === "CannotBookingRoom") {
       return res.sendStatus(httpStatus.FORBIDDEN);
