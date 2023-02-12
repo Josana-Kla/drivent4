@@ -81,7 +81,7 @@ async function updateBooking(userId: number, roomId: number, bookingId: number) 
     throw notFoundError();
   }
 
-  if(room.Booking.length > room.capacity) {
+  if(room.Booking.length >= room.capacity) {
     throw cannotBookingRoom();
   }
 

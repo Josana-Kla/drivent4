@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1676159504423" clover="3.2.0">
-  <project timestamp="1676159504424" name="All files">
-    <metrics statements="642" coveredstatements="538" conditionals="103" coveredconditionals="53" methods="99" coveredmethods="82" elements="844" coveredelements="673" complexity="0" loc="642" ncloc="642" packages="26" files="65" classes="65"/>
+<coverage generated="1676243621958" clover="3.2.0">
+  <project timestamp="1676243621959" name="All files">
+    <metrics statements="642" coveredstatements="576" conditionals="103" coveredconditionals="68" methods="99" coveredmethods="88" elements="844" coveredelements="732" complexity="0" loc="642" ncloc="642" packages="26" files="65" classes="65"/>
     <package name="src">
       <metrics statements="22" coveredstatements="16" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="2"/>
       <file name="app.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/app.ts">
@@ -59,7 +59,7 @@
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="163" coveredstatements="131" conditionals="22" coveredconditionals="13" methods="16" coveredmethods="14"/>
+      <metrics statements="163" coveredstatements="145" conditionals="22" coveredconditionals="16" methods="16" coveredmethods="15"/>
       <file name="authentication-controller.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/controllers/authentication-controller.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
@@ -72,17 +72,17 @@
         <line num="12" count="2" type="stmt"/>
       </file>
       <file name="bookings-controller.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/controllers/bookings-controller.ts">
-        <metrics statements="39" coveredstatements="12" conditionals="8" coveredconditionals="1" methods="3" coveredmethods="1"/>
+        <metrics statements="39" coveredstatements="26" conditionals="8" coveredconditionals="4" methods="3" coveredmethods="2"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="10" count="4" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="14" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="4" type="cond" truecount="1" falsecount="0"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
         <line num="21" count="11" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
@@ -97,21 +97,21 @@
         <line num="37" count="0" type="stmt"/>
         <line num="39" count="0" type="stmt"/>
         <line num="43" count="11" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="53" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="54" count="0" type="stmt"/>
-        <line num="56" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="57" count="0" type="stmt"/>
-        <line num="59" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="44" count="8" type="stmt"/>
+        <line num="45" count="8" type="stmt"/>
+        <line num="46" count="8" type="stmt"/>
+        <line num="48" count="8" type="stmt"/>
+        <line num="49" count="8" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="53" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="56" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="59" count="3" type="cond" truecount="0" falsecount="1"/>
         <line num="60" count="0" type="stmt"/>
-        <line num="62" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="63" count="0" type="stmt"/>
-        <line num="65" count="0" type="stmt"/>
+        <line num="62" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
       </file>
       <file name="enrollments-controller.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/controllers/enrollments-controller.ts">
         <metrics statements="20" coveredstatements="19" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
@@ -252,11 +252,11 @@
       </file>
     </package>
     <package name="src.errors">
-      <metrics statements="27" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="6"/>
+      <metrics statements="27" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="8"/>
       <file name="cannot-booking-room.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/errors/cannot-booking-room.ts">
-        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="cannot-enroll-before-start-date-error.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/errors/cannot-enroll-before-start-date-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -266,12 +266,12 @@
       <file name="cannot-list-hotels-error.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/errors/cannot-list-hotels-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
       </file>
       <file name="cannot-update-booking.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/errors/cannot-update-booking.ts">
-        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="conflict-error.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/errors/conflict-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -301,7 +301,7 @@
       <file name="not-found-error.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/errors/not-found-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="13" type="stmt"/>
+        <line num="4" count="17" type="stmt"/>
       </file>
       <file name="request-error.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/errors/request-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -311,7 +311,7 @@
       <file name="unauthorized-error.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/errors/unauthorized-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="32" type="stmt"/>
+        <line num="4" count="35" type="stmt"/>
       </file>
     </package>
     <package name="src.middlewares">
@@ -323,18 +323,18 @@
         <line num="5" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
-        <line num="9" count="70" type="stmt"/>
-        <line num="10" count="70" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="60" type="stmt"/>
-        <line num="13" count="60" type="cond" truecount="0" falsecount="1"/>
-        <line num="15" count="60" type="stmt"/>
-        <line num="16" count="60" type="stmt"/>
-        <line num="18" count="50" type="stmt"/>
-        <line num="23" count="50" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="40" type="stmt"/>
-        <line num="27" count="40" type="stmt"/>
-        <line num="29" count="10" type="stmt"/>
-        <line num="34" count="30" type="stmt"/>
+        <line num="9" count="82" type="stmt"/>
+        <line num="10" count="82" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="71" type="stmt"/>
+        <line num="13" count="71" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="71" type="stmt"/>
+        <line num="16" count="71" type="stmt"/>
+        <line num="18" count="60" type="stmt"/>
+        <line num="23" count="60" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="49" type="stmt"/>
+        <line num="27" count="49" type="stmt"/>
+        <line num="29" count="11" type="stmt"/>
+        <line num="34" count="33" type="stmt"/>
       </file>
       <file name="error-handling-middleware.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/middlewares/error-handling-middleware.ts">
         <metrics statements="14" coveredstatements="2" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -385,14 +385,14 @@
       </file>
     </package>
     <package name="src.repositories.booking-repository">
-      <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
       <file name="index.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/repositories/booking-repository/index.ts">
-        <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
         <line num="46" count="11" type="stmt"/>
         <line num="53" count="11" type="stmt"/>
       </file>
@@ -402,7 +402,7 @@
       <file name="index.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/repositories/enrollment-repository/index.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="5" count="21" type="stmt"/>
+        <line num="5" count="30" type="stmt"/>
         <line num="14" count="6" type="stmt"/>
         <line num="24" count="2" type="stmt"/>
         <line num="36" count="11" type="stmt"/>
@@ -460,7 +460,7 @@
         <line num="5" count="2" type="stmt"/>
         <line num="9" count="8" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
-        <line num="30" count="14" type="stmt"/>
+        <line num="30" count="22" type="stmt"/>
         <line num="41" count="2" type="stmt"/>
         <line num="49" count="3" type="stmt"/>
         <line num="61" count="11" type="stmt"/>
@@ -655,9 +655,9 @@
       </file>
     </package>
     <package name="src.services.bookings-service">
-      <metrics statements="57" coveredstatements="21" conditionals="26" coveredconditionals="6" methods="3" coveredmethods="1"/>
+      <metrics statements="57" coveredstatements="41" conditionals="26" coveredconditionals="18" methods="3" coveredmethods="2"/>
       <file name="index.ts" path="/home/josana/Documents/DRIVEN/project-drivent/drivent4/drivent/src/services/bookings-service/index.ts">
-        <metrics statements="57" coveredstatements="21" conditionals="26" coveredconditionals="6" methods="3" coveredmethods="1"/>
+        <metrics statements="57" coveredstatements="41" conditionals="26" coveredconditionals="18" methods="3" coveredmethods="2"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -666,12 +666,12 @@
         <line num="6" count="11" type="stmt"/>
         <line num="7" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="12" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="5" type="cond" truecount="1" falsecount="0"/>
         <line num="13" count="1" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
-        <line num="17" count="3" type="cond" truecount="0" falsecount="1"/>
-        <line num="18" count="0" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
         <line num="21" count="3" type="cond" truecount="4" falsecount="0"/>
         <line num="22" count="1" type="stmt"/>
         <line num="25" count="2" type="stmt"/>
@@ -694,25 +694,25 @@
         <line num="57" count="0" type="stmt"/>
         <line num="59" count="0" type="stmt"/>
         <line num="61" count="0" type="stmt"/>
-        <line num="65" count="0" type="stmt"/>
-        <line num="66" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="67" count="0" type="stmt"/>
-        <line num="70" count="0" type="stmt"/>
-        <line num="71" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="72" count="0" type="stmt"/>
-        <line num="75" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="76" count="0" type="stmt"/>
-        <line num="79" count="0" type="stmt"/>
-        <line num="80" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="81" count="0" type="stmt"/>
-        <line num="84" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="85" count="0" type="stmt"/>
-        <line num="88" count="0" type="stmt"/>
-        <line num="89" count="0" type="cond" truecount="0" falsecount="3"/>
-        <line num="90" count="0" type="stmt"/>
-        <line num="93" count="0" type="stmt"/>
-        <line num="99" count="0" type="stmt"/>
-        <line num="101" count="0" type="stmt"/>
+        <line num="65" count="8" type="stmt"/>
+        <line num="66" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="70" count="7" type="stmt"/>
+        <line num="71" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="75" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="79" count="5" type="stmt"/>
+        <line num="80" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="84" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="88" count="3" type="stmt"/>
+        <line num="89" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="90" count="1" type="stmt"/>
+        <line num="93" count="2" type="stmt"/>
+        <line num="99" count="2" type="stmt"/>
+        <line num="101" count="1" type="stmt"/>
         <line num="104" count="11" type="stmt"/>
         <line num="110" count="11" type="stmt"/>
       </file>
