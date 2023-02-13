@@ -50,13 +50,11 @@ async function createBooking(userId: number, roomId: number) {
     throw notFoundError();
   }
 
-  if(room.Booking.length > room.capacity) {
+  if(room.Booking.length >= room.capacity) {
     throw cannotBookingRoom();
   }
 
   const booking = await bookingRepository.newBooking(userId, roomId);
-  
-  console.log(booking);
 
   return booking;
 }
